@@ -1,0 +1,38 @@
+.G__main {
+    background-color: black;
+}
+.G__block {
+    padding: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.G__container {
+}
+.G__container__info {
+    padding: 20px;
+    max-width: 100%;
+    text-align: center;
+    color: white;
+}
+.G__container__title {
+    font-weight: 600;
+    font-size: 40px;
+}
+.G__container__text {
+    font-size: 20px;
+}
+.img {
+    max-width: 100%;
+}
+.border{
+    position: absolute;
+    height: 10px;
+    width: 100%;
+    left: 0;
+    background-color: rgb(46, 41, 41);
+    z-index: 1000;
+}
